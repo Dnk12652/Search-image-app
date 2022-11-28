@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(244, 244, 244);
+  color: #333;
+  font-size: 10px;
+}
+
+.input {
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 1rem;
+  width: 50%;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 850px;
+  padding: 20px;
+}
+
+.button {
+  margin-left: 20px;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 250ms;
+}
+
+.btn1 {
+  width: 200px;
+  margin-left: 60px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.btn2 {
+  border-radius: 20px;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(124, 121, 121, 0.85);
+}
+
+.card-list {
+  column-count: 3;
+}
+
+.card {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.image {
+  flex: 100%;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 26px;
+  font-family: "lato";
+}
+
+img:hover {
+  transform: scale(1.1);
+}
